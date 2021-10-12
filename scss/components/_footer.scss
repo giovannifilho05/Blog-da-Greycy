@@ -1,3 +1,5 @@
+@use '../abstracts' as *;
+
 .footer {
     background-image: url("../assets/img/bg-footer.svg");
 
@@ -65,11 +67,11 @@
             .title {
                 height: 50px;
                 padding-top: 10px;
-                color: hsl(0, 0%, 100%);
+                color: $text-color-default;
                 margin-bottom: 10px;
 
                 span {
-                    border-bottom: 5px solid orange;
+                    border-bottom: 5px solid $secondary-color;
                 }
             }
 
@@ -86,7 +88,6 @@
                 }
 
                 a {
-                    // width: 175px;
                     display: flex;
                     align-items: center;
                     text-decoration: none;
@@ -103,7 +104,7 @@
 
                     span {
                         margin: 5px 10px;
-                        color: hsl(0, 0%, 100%);
+                        color: $text-color-default;
                     }
                 }
 

@@ -1,0 +1,11 @@
+@mixin content-area() {
+    max-width: 1130px;
+    padding: 10px;
+    margin: auto;
+}
+
+@mixin display-flex() {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
